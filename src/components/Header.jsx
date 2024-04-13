@@ -6,7 +6,7 @@ const Header = () => {
   
 
   return (
-    <div className='bg-black text-white mx-auto overflow-hidden z-20 fixed w-full shadow-xl shadow-gray-800'>
+    <div className='bg-black text-white mx-auto overflow-hidden z-20 fixed w-full shadow-lg shadow-gray-500 '>
       <div className='max-w-7xl flex justify-between h-[70px]'>
 
         <h1 className='pl-6 mt-3 text-red-500 text-2xl md:text-3xl lg:4xl font-semibold '>HELLO<span className='text-white'>CHEF.</span></h1>
