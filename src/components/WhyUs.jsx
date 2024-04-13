@@ -48,9 +48,9 @@ const WhyUs = () => {
 
 
   return (
-    <div className='mx-auto bg-white'>
+    <div className='mx-auto bg-white dark:bg-slate-950'>
       <div className='max-w-7xl px-12'>
-        <p className='text-xl mt-14 block w-full sm:text-2xl lg:text-4xl mx-auto text-center'>Why Choose Us?</p>
+        <p className='text-xl mt-14 block w-full sm:text-2xl lg:text-4xl mx-auto dark:text-white text-center'>Why Choose Us?</p>
         <p className='md:text-2xl block w-full mx-auto text-center text-gray-500 mt-16'>Eat well for less with impressively easy meals starting from AED 35 per serving.</p>
         <div className='grid lg:grid-cols-3 justify-center mt-3 gap-4 mx-auto max-w-md min-w-full'>
           {/* Wrap each animated element with motion */}
