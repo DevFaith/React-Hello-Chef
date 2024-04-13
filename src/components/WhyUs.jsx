@@ -50,7 +50,7 @@ const WhyUs = () => {
   return (
     <div className='mx-auto bg-white dark:bg-slate-950'>
       <div className='max-w-7xl px-12'>
-        <p className='text-xl mt-14 block w-full sm:text-2xl lg:text-4xl mx-auto dark:text-white text-center'>Why Choose Us?</p>
+        <p className='text-xl pt-14 block w-full sm:text-2xl lg:text-4xl mx-auto dark:text-white text-center'>Why Choose Us?</p>
         <p className='md:text-2xl block w-full mx-auto text-center text-gray-500 mt-16'>Eat well for less with impressively easy meals starting from AED 35 per serving.</p>
         <div className='grid lg:grid-cols-3 justify-center mt-3 gap-4 mx-auto max-w-md min-w-full'>
           {/* Wrap each animated element with motion */}
@@ -62,8 +62,8 @@ const WhyUs = () => {
             transition={{ duration: 0.5 }}
             className='lg:shadow-sm lg:shadow-gray-500 border-none rounded-lg mb-12 pb-10'>
             <img src={SalmonKatsu} alt="" className='object-cover rounded-lg' />
-            <p className='text-center text-3xl'>Convenience</p>
-            <ul className='list-disc ml-4 mt-3 px-2'>
+            <p className='text-center text-3xl dark:text-white'>Convenience</p>
+            <ul className='list-disc ml-4 mt-3 px-2 dark:text-white'>
               <li className='list-disc ml-3'>Pre-measured ingredients & easy recipes</li>
               <li className='list-disc ml-3'>Contactless, doorstep delivery across UAE</li>
               <li className='list-disc ml-3'>Skip a delivery or cancel anytime</li>
@@ -77,8 +77,8 @@ const WhyUs = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className='lg:shadow-sm lg:shadow-gray-500 border-none rounded-lg mb-12 pb-10'>
             <img src={SalmonKatsu} alt="" className='object-cover rounded-lg' />
-            <p className='text-center text-3xl'>Variety</p>
-            <ul className='list-disc ml-4 mt-3 px-2'>
+            <p className='text-center text-3xl dark:text-white'>Variety</p>
+            <ul className='list-disc ml-4 mt-3 px-2 dark:text-white'>
               <li className='list-disc ml-3'>New recipes every week</li>
               <li className='list-disc ml-3'>24+ dishes to choose from</li>
               <li className='list-disc ml-3'>Low-calorie & family-friendly option</li>
@@ -92,8 +92,8 @@ const WhyUs = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className='lg:shadow-sm lg:shadow-gray-500 border-none rounded-lg mb-12 pb-10'>
             <img src={SalmonKatsu} alt="" className=' object-cover rounded-lg' />
-            <p className='text-center text-3xl'>Deliciousness</p>
-            <ul className='list-disc ml-4 mt-3 px-2'>
+            <p className='text-center text-3xl dark:text-white'>Deliciousness</p>
+            <ul className='list-disc ml-4 mt-3 px-2 dark:text-white'>
               <li className='list-disc ml-3'>No skimpin' on the portion size!</li>
               <li className='list-disc ml-3'>100% satisfaction guarantee, or we will make it right</li>
               <li className='list-disc ml-3'>Fresh ingredients from local, trusted suppliers</li>

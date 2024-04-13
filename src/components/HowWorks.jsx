@@ -26,7 +26,7 @@ const HowWorks = () => {
   }, [inView1, controls1]);
 
   return (
-    <div className='mx-auto bg-white'>
+    <div className='mx-auto bg-white dark:bg-slate-950'>
       <div className='max-w-7xl px-12 grid lg:grid-cols-2 rounded-3lg pb-2'>
         <div>
           <img src={Family} alt="" className='' />
