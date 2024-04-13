@@ -6,10 +6,10 @@ const Header = () => {
   
 
   return (
-    <div className='bg-gray-300 mx-auto overflow-hidden z-20 fixed w-full'>
+    <div className='bg-black text-white mx-auto overflow-hidden z-20 fixed w-full shadow-xl shadow-gray-800'>
       <div className='max-w-7xl flex justify-between h-[70px]'>
 
-        <h1 className='pl-6 mt-3 text-red-500 text-2xl md:text-3xl lg:4xl font-semibold '>HELLO<span className='text-black'>CHEF.</span></h1>
+        <h1 className='pl-6 mt-3 text-red-500 text-2xl md:text-3xl lg:4xl font-semibold '>HELLO<span className='text-white'>CHEF.</span></h1>
 
         <ul className='hidden md:flex flex-row justify-between gap-6 pr-6'>
           <li className='mt-5 cursor-pointer hover:scale-105 duration-300'>Our Plans</li>
