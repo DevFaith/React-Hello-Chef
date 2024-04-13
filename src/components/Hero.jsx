@@ -7,7 +7,6 @@ const Hero = () => {
       <div className='w-screen h-screen min-h-screen relative'>
         <img src={Banner} alt="" />
         <div className='absolute top-0 left-0 z-10'>
-          
         </div>
 
       </div>
